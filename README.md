@@ -28,4 +28,24 @@ package	private	protected	public	return
 short	static	super	switch	synchronized
 this	throw	throws	transient	true
 try	typeof	var	void	volatile
-while	with	yield		
+while	with	yield
+
+イベント
+HTMLである操作が行われたりある状態になったときに発生する。
+ボタンを押したとき、画面がスクロールされた時など。↓
+
+イベント	発生タイミング
+onchange	チェックボックスなどのフォームの状態が変わった時
+onclick	クリックしたとき
+oninput	テキストボックスなどのフォームに入力したとき
+onload	HTMLの読み込みが完了したとき、HTMLを表示する直前
+onmouseover	マウスカーソルが要素の上にあるとき
+onmouseout	マウスカーソルが要素から離れた時
+onmousedown	マウスのボタンを押し込んだ時
+onresize	画面のサイズが変わった時
+onscroll	画面をスクロールした時
+onsubmit	フォームを送信した時
+
+DOM操作
+HTMLの要素書き換えやCSSの適用等
+DOMとは「Document Object Model」の略で、HTMLやXML文書を取り扱うための仕組み
